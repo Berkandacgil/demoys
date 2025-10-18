@@ -93,6 +93,8 @@ void createhead(char* dizi, int gameint, int *gamein) {
     dizi[gamein[randhead]] = '*';
 }
 
+
+
 int main() {
     // Rastgelelik çekirdeğini programın başında bir kez başlat
     srand(time(NULL));
